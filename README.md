@@ -18,6 +18,10 @@ Visit: [https://palak-j.github.io/pr9]
 For Execution: <br/>
 Step 1: Run code on local server. <br/>
 Step 2: Open postman app,  put server along with port as http://127.0.0.1:5000 <br/>
-To use API, put methods after server as http://127.0.0.1:5000/{method_name} and set the respective method type(GET, POST)
+To use API, put methods after server as http://127.0.0.1:5000/{method_name} and set the respective method type(GET, POST) <br/>
+<br/>
+For POST method: <br/>
+Give input as JSON . For example: <br/>
+{"voters" : "A" , "candidates" : "Z"}
 
 
