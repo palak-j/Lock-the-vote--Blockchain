@@ -52,6 +52,7 @@ The system follows the workflow illustrated in the project flowchart:
 
 <br/>
 
+
 ## API Usage
 The application exposes multiple REST APIs using Flask:
 - `GET` APIs for fetching system data
@@ -74,9 +75,8 @@ http://127.0.0.1:5000
 Step 3: Call APIs Using Postman
 
 Use the following format: <br>
-http://127.0.0.1:5000/{method_name}
+http://127.0.0.1:5000/{method_name} <br>
 Select the appropriate request type (GET or POST).
-
 
 
 
@@ -86,7 +86,8 @@ Sample POST Request:
   "candidates": "Z"
 }
 
-# Project Highlights
+<br/>
+## Project Highlights
 
 * Demonstrates real-world use of blockchain for secure voting
 * Implements distributed data integrity and transparency
@@ -94,7 +95,7 @@ Sample POST Request:
 * Follows clean API design and system workflow principles
 
 
-# Future Improvements
+## Future Improvements
 
 * Implement cryptographic hashing for enhanced block security
 * Add voter anonymity using public-private key encryption
