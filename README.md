@@ -40,6 +40,8 @@ The system follows the workflow illustrated in the project flowchart:
      - Votes are registered as a blockchain transaction
 6. **Result Generation**
    - Final election results are generated after voting completion.
+  
+![workflow](src/flowchart.PNG)
 
 <br/>
 
