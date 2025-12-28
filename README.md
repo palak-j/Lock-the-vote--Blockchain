@@ -53,6 +53,7 @@ The system follows the workflow illustrated in the project flowchart:
 <br/>
 
 
+
 ## API Usage
 The application exposes multiple REST APIs using Flask:
 - `GET` APIs for fetching system data
@@ -87,12 +88,14 @@ Sample POST Request:
 }
 
 <br/>
+
 ## Project Highlights
 
 * Demonstrates real-world use of blockchain for secure voting
 * Implements distributed data integrity and transparency
 * Showcases backend development using Flask and MySQL
 * Follows clean API design and system workflow principles
+
 
 
 ## Future Improvements
@@ -102,29 +105,5 @@ Sample POST Request:
 * Deploy smart contracts for automated vote validation
 * Build a frontend UI for better usability
 * Deploy the system on cloud infrastructure
-
-
-
-
-
-In this project, I have used MySQL database to store data.
-
-<br/>
-
-To demonstrate this system, I used a python library Flask and created some API with different methods(GET, POST) and tested those APIs using POSTMAN API platform.
-
-<br/>
-
-For more details: <br/>
-Visit: [https://palak-j.github.io/pr9]
-
-For Execution: <br/>
-Step 1: Run code on local server. <br/>
-Step 2: Open postman app,  put server along with port. For example:  http://127.0.0.1:5000 <br/>
-To use API, put methods after server as http://127.0.0.1:5000/{method_name} and set the respective method type(GET, POST) <br/>
-<br/>
-For POST method: <br/>
-Give input as JSON . For example: <br/>
-{"voters" : "A" , "candidates" : "Z"}
 
 
