@@ -61,6 +61,8 @@ The application exposes multiple REST APIs using Flask:
 
 All APIs were tested and validated using **Postman**.
 
+<br/>
+
 ## How to Run the Project
 
 ### Step 1: Start the Server
@@ -96,7 +98,7 @@ Sample POST Request:
 * Showcases backend development using Flask and MySQL
 * Follows clean API design and system workflow principles
 
-
+<br/>
 
 ## Future Improvements
 
